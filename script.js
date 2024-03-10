@@ -40,6 +40,7 @@ class Particle {
                 const angle = Math.atan2(dy, dx);
                 this.pushX += Math.cos(angle) * force;
                 this.pushY += Math.sin(angle) * force;
+                
             }
         }
 
